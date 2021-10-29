@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im55eXAiLCJpZCI6IjYxN2E4NWRlMDg3Yzk2MzA2ZTM2ZjEwMyIsImlhdCI6MTYzNTQ5MTU4OX0.8Y9posh2kjGdKVtp7PvVB3J71GCXVRSV21DMr8TvcY0
+
+{
+  "title": "JTW UserExtractor11",
+  "author": "Toimiiko",
+  "url": "https://www.yle.fi",
+  "likes": 4
+}
